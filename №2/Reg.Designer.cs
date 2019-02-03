@@ -50,6 +50,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(213, 94);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(188, 20);
@@ -59,6 +60,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(213, 121);
+            this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
             this.textBox3.Size = new System.Drawing.Size(188, 20);
@@ -109,9 +111,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(408, 123);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.Size = new System.Drawing.Size(114, 17);
             this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.Text = "Показать пароль";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
